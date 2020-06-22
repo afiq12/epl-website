@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+@font-face {
+  font-family: tulisan_keren;
+  src: url(product_sans_bold.ttf);
+}
+
+@font-face {
+  font-family: tulisan_keren_lagi;
+  src: url(product_sans_font.ttf);
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 300px 0;
+  background-image: url(https://i.eurosport.com/2018/06/14/2354665-48992070-2560-1440.jpg);
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-wrapper h1 strong {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family: 'tulisan_keren';
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.top-wrapper p strong {
+  font-size: 25px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-family: 'tulisan_keren_lagi';
+  line-height: 120%;
+}
+
+.container h1 strong{ 
+  background-color: #c0c;
+  padding: 4px 4px;
+  position: relative;
+}
+
+.container p strong{ 
+  background-color: rgb(36, 0, 83);
+  padding: 4px 7px;
+  position: relative;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family: 'tulisan_keren';
+  font-weight: bold;
+}
+
+.top-wrapper p {
+  font-size: 25px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-family: 'tulisan_keren_lagi';
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: rgba(0, 255, 64, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 20px 40px;
+  color: rgb(52, 0, 134);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-family: 'tulisan_keren';
+  font-weight: bolder;
+  font-size: large;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: rgb(22, 0, 117);
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.club-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #0e004e;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-family: 'tulisan_keren_lagi';
+  color: #eee;
+  font-weight: 500px;
+}
+
+.club {
+  float: left;
+  width: 25%;
+}
+
+.club-logo {
+  position: relative;
+}
+
+.club-logo img {
+  position: relative;
+}
+
+.animation {
+  position: absolute;
+  margin-left: -55px;
+  margin-top: -30px;
+}
+
+.club-logo p {
+  font-family: 'tulisan_keren_lagi';
+  top: 44%;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'tulisan_keren_lagi';
+  position: relative;
+}
+
+.about {
+  margin-bottom: 30px;
+}
+
+.heading h3 {
+  color: #410052;
+  font-family: 'tulisan_keren_lagi';
+  text-align: center;
+}
+
+.about p {
+  font-family: 'tulisan_keren_lagi';
+  text-align: center;
+  color: #410052;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(204, 0, 223);
+}
+
+.logo-footer-premier img {
+  height: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-footer img {
+  height: 30px;
+  position: relative;
+  margin: 5px;  
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 10%;
+  font-family: 'tulisan_keren_lagi';
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(67, 1, 94);
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+}  
+
+
